@@ -1,0 +1,285 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 78px;
+}
+
+p.home {
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.home-img {
+  width: 50%;
+  border-radius: 5px;
+}
+
+img.social {
+  width: 70%;
+  border-radius: 5px;
+}
+
+img.itunes {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.stitcher {
+  width: 500px;
+  height: 360px;
+  border: 0;
+  overflow: hidden;
+}
+
+.intro-section {
+  padding-top: 125px;
+}
+
+.podcast {
+  padding: 20px 20px 20px 20px;
+  margin-top: 40px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.about {
+  padding: 20px 20px 20px 20px;
+  margin-top: 40px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.rankings {
+  padding: 20px 20px 20px 20px;
+  margin-top: 40px;
+  text-align: left;
+  font-size: 20px;
+}
+
+legend > a:hover {
+  text-decoration: none;
+}
+
+p.aboutContent {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+section {
+  display: block;
+}
+
+#intro {
+  height: 1000px;
+}
+
+#about{
+  height: 1000px;
+}
+
+#podcasts{
+  height: 1000px;
+}
+
+#rankings{
+  height: 1000px;
+}
+
+/* For the largest screens */
+@media screen and (min-width: 1200px){
+
+  .home-img {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  img.social {
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  img.itunes {
+    width: 80%;
+    border-radius: 5px;
+  }
+
+  #intro {
+    height: 1500px;
+  }
+
+}
+
+
+/* For medium width window */
+@media screen and (max-width: 1199px){
+
+  .home-img {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  img.social {
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  img.itunes {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+}
+
+
+/* For smaller width window, like tablets */
+@media screen and (max-width: 991px){
+
+  .home-img {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  img.social {
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  img.itunes {
+    width: 65%;
+    border-radius: 5px;
+  }
+
+}
+
+/* For the smallest screens, like phones */
+@media screen and (max-width: 767px){
+
+  .home-img {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  img.social {
+    width: 15%;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  img.itunes {
+    width: 60%;
+    border-radius: 5px;
+  }
+
+  .stitcher {
+    width: 500px;
+    height: 360px;
+    border: 0;
+    overflow: hidden;
+  }
+
+  #intro {
+    height: 1600px;
+  }
+
+}
+
+/* For the smallest screens, like phones */
+@media screen and (max-width: 600px){
+
+  .home-img {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  img.social {
+    width: 20%;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  img.itunes {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  .stitcher {
+    width: 400px;
+    height: 360px;
+    border: 0;
+    overflow: hidden;
+  }
+
+  #intro {
+    height: 1600px;
+  }
+
+}
+
+/* For the smallest screens, like phones */
+@media screen and (max-width: 500px){
+
+  .home-img {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  img.social {
+    width: 25%;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  img.itunes {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  .stitcher {
+    width: 300px;
+    height: 360px;
+    border: 0;
+    overflow: hidden;
+  }
+
+  #intro {
+    height: 1600px;
+  }
+
+}
+
+/* For the smallest screens, like phones */
+@media screen and (max-width: 400px){
+
+  .home-img {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  img.social {
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  img.itunes {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  .stitcher {
+    width: 300px;
+    height: 360px;
+    border: 0;
+    overflow: hidden;
+  }
+
+  #intro {
+    height: 1600px;
+  }
+
+}
